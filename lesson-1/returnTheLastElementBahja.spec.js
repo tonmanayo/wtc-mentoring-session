@@ -5,7 +5,7 @@ describe((`return the last element in an array`), function () {
         expect(returnTheLastElementBahja([1, 2, 3])).toBe(3)
     });
 
-    it('should return the only number is the array if an array with a single value is given', function (){
+    it('should return the only element in the array if an array with a single value is given', function (){
         expect(returnTheLastElementBahja([1])).toBe(1)
     });
 
