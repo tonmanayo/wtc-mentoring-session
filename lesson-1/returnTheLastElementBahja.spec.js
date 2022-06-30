@@ -9,11 +9,11 @@ describe((`return the last element in an array`), function () {
         expect(returnTheLastElementBahja(['x','y','z'])).toBe('z')
     });
 
-    it('should return the error message in an array is given', function () {
+    it('should return an error message if an empty array is given', function () {
         expect(returnTheLastElementBahja([])).toBe('Please enter a valid input')
     });
 
-    it('should return the error message in null is given in place of an array', function () {
+    it('should return an error message if null is given in place of an array', function () {
         expect(returnTheLastElementBahja(null)).toBe('Please enter a valid input')
     });
 
