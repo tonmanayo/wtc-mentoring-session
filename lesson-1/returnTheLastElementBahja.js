@@ -9,4 +9,6 @@ function returnTheLastElementBahja(dataArray) {
     return dataArray[dataArray.length-1];
 }
 
-console.log(returnTheLastElementBahja([1, 2, 3]))
+export {
+    returnTheLastElementBahja
+}
