@@ -4,7 +4,9 @@
   "description": "Tech skills",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:zxc": "jest zxc",
+    "test:ewq": "jest ewq"
   },
   "repository": {
     "type": "git",
